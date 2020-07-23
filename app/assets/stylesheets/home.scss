@@ -1,0 +1,70 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// リセットCSS
+body{    
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    padding: 0 200px;
+    height: 54px;
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+
+.inner {
+    max-width: 975px;
+    margin: 0 auto;
+} 
+
+.page-header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 54px;
+}
+
+.page-header-logo{
+    height: 54px;
+    margin: 0px;
+}
+
+.page-header-logo img {
+    width: 103px;
+    height: auto;
+    padding-top: 15px;
+}
+
+.page-header-search{
+    width: 215px;
+    height: 28px;
+}
+
+.page-header-search input {
+    text-align: center;
+    width: 215px;
+    border-radius: 5px;
+}
+
+.page-header-link ul{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+}
+
+.page-header-link .fa {
+    height: 22px;
+    width: 22px;
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+
